@@ -4,6 +4,6 @@ MAINTAINER Emrah Er <eer@eremrah.com>
 
 # Install other libraries
 RUN install2.r --error \
-         ggmap ggfortify gam kableExtra hdm \
+         ggmap gam kableExtra hdm \
     && R -e "devtools::install_github('emraher/eermisc')"
     && R -e "devtools::install_github('emraher/wildcatdown')"
